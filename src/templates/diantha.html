@@ -1,0 +1,54 @@
+<!-- HERO IMG -->
+<div class="heroDiantha"></div>
+
+<!---------- Title & Skills ---------->
+
+<div class="portfolio">
+     <div class="portTitle">
+          <h1>Diantha</h2>
+     </div>
+
+     <div class="parentTags">
+          <div class="childTags" ng-repeat="item in diantha.data">
+               <h3>{{item.skill}}</h3>
+          </div>
+     </div>
+
+
+<!---------- Problem/Description ---------->
+     <div class="description">
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Problem</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>Diantha was a brand designed for an Argentinian startup in women's apparel. They needed a brand that would convey elegance and appeal to high-end markets.</p>
+               </div>
+          </div>
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Challenges</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>As a high-end clothing manufacturer, their logo needed to be a work of art in itself, and needed to maintain flexibility across a variety of applications. They also needed a name that reflected the elegance of the customers they served.</p>
+               </div>
+          </div>
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Solution</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>The name chosen was "Diantha", which was Greek for "flower" and represented beauty and grace. To match the beauty of this name, I created a logo that hinted at mirrored, cursive D's while simultaneously creating the abstract shape of a flower in bloom. Lastly the shape in the middle resembled both a diamond and a flower stem, accomplishing multiple layers of messaging and bringing the logo together gracefully. The logo also lent itself wonderfully to bags, boxes, clothing tags, and more.</p>
+               </div>
+          </div>
+     </div>
+
+<!---------- Gallery ---------->
+
+     <div class="examplesParent">
+          <div class="examplesChild" ng-repeat="item in diantha.pics">
+               <img src="/src/img/{{item.img}}">
+          </div>
+     </div>
+
+</div>

@@ -1,0 +1,56 @@
+<!-- HERO IMG -->
+<div class="heroKc"></div>
+
+<!---------- Title & Skills ---------->
+
+<div class="portfolio">
+     <div class="portTitle">
+          <h1>Kid City Playcenter & Resort</h2>
+     </div>
+
+     <div class="parentTags">
+          <div class="childTags" ng-repeat="item in kidcity.data">
+               <h3>{{item.skill}}</h3>
+          </div>
+     </div>
+
+<!---------- Problem/Description ---------->
+     <div class="description">
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Problem</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>Kid City was an innovative new childcare center faced with the challenge of differentiating itself from a flooded childcare market, building trust with parents, and still maintaining a sense of fun for the children--all at the same time. Compared to other childcare centers, it had a higher startup cost alongside the normal startup challenges, so we had to make an impression and ensure growth at a fast pace.</p>
+               </div>
+          </div>
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Challenges</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>In a market where there were hundreds of competing childcare centers, Kid City needed to stand out. Additionally, the business plan called for positioning the company has a high-end solution for childcare. So we were faced with the question: how do we maintain a sense of fun, appeal to high-end customers, and stand out from every other childcare center in the market?</p>
+               </div>
+          </div>
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Solution</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>In order to solve these problems, I designed a brand and marketing that looked and felt like a "big box" chain. This would build trust by giving parents the impression that KC was large and wasn't just a "mom and pop" daycare. This involved a carefully design logo, city-themed and cohesive marketing and design work, numerous high-quality illustrations (many of them custom), a high-quality commercial, and much more. As a result of these efforts, Kid City grew to over 500 members in less than a year, moved to a new space with more than twice the square footage to keep up with the growth, started a waiting list, and had parents regularly commenting on the design and asking if KC was a franchise they could buy into. It was a monumental success.</p>
+               </div>
+          </div>
+     </div>
+
+<!---------- Gallery ---------->
+
+     <div class="examplesParent">
+          <div class="examplesChild" ng-repeat="item in kidcity.pics">
+               <img src="/src/img/{{item.img}}">
+          </div>
+          <div class="examplesChild">
+               <iframe width="100%" height="535" src="https://www.youtube.com/embed/yrV-oImgedU" frameborder="0" allowfullscreen></iframe>
+          </div>
+     </div>
+
+</div>

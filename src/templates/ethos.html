@@ -1,0 +1,54 @@
+<!-- HERO IMG -->
+<div class="heroEthos"></div>
+
+<!---------- Title & Skills ---------->
+
+<div class="portfolio">
+     <div class="portTitle">
+          <h1>The Ethos Project</h2>
+     </div>
+
+     <div class="parentTags">
+          <div class="childTags" ng-repeat="item in ethos.data">
+               <h3>{{item.skill}}</h3>
+          </div>
+     </div>
+
+
+<!---------- Problem/Description ---------->
+     <div class="description">
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Problem</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>Ethos Project oversaw programs that helped people get into technology careers, and they needed branding and materials that walked the line between "technology-oriented" and "accessible". As a nonprofit that would be working with top leaders in the city, they needed a clean, professional brand that would stand out from other organizations in the community.</p>
+               </div>
+          </div>
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Challenges</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>Ethos Project conducted business with prestigious business leaders, politicians, and nonprofit leaderhip, but it also conducted programs for low-income areas. The challenge was developing a brand that would appeal to high-end thought leaders while remaining accessible to the average person. Additionally, Ethos Project's programs often required realying complex information in a way that people could easily follow.</p>
+               </div>
+          </div>
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Solution</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>The design developed maintained the "feel" of a tech company, but also used fun splashes of color that would appeal to a wider market and make program participants feel that technology careers were accessible to them. The resulting designs conveyed feelings of fun, foward-thinking, encouragement, and importance. Both leaders and program participants regularly commented positively on the design work, and partners loved the easy-to-follow infographics and graphics work. The organization's years-long struggle with accurately conveying what they did was over: now they had a clear brand that accomplished exactly what it was supposed to.</p>
+               </div>
+          </div>
+     </div>
+
+<!---------- Gallery ---------->
+
+     <div class="examplesParent">
+          <div class="examplesChild" ng-repeat="item in ethos.pics">
+               <img src="/src/img/{{item.img}}">
+          </div>
+     </div>
+
+</div>

@@ -1,0 +1,12 @@
+<div class="portfolio">
+
+<h1>My Work</h1>
+
+<div class="thumbsParent">
+     <div class="thumbsChild" ng-repeat="item in portfolio.data" ui-sref="{{item.link}}"  ng-style="{'background-image':url('/src/img/'{{item.img}}')}">
+          <img  src="/src/img/{{item.img}}">
+     </div>
+</div>
+
+
+</div>

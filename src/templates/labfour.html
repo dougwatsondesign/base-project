@@ -1,0 +1,54 @@
+<!-- HERO IMG -->
+<div class="heroLabfour"></div>
+
+<!---------- Title & Skills ---------->
+
+<div class="portfolio">
+     <div class="portTitle">
+          <h1>Lab Four Professional Development Center</h2>
+     </div>
+
+     <div class="parentTags">
+          <div class="childTags" ng-repeat="item in labfour.data">
+               <h3>{{item.skill}}</h3>
+          </div>
+     </div>
+
+
+<!---------- Problem/Description ---------->
+     <div class="description">
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Problem</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>As a startup in the technology training industry, Lab Four faced the challenge of differentiating itself from huge global competitors. The company had a vision for helping average people get into technology careers through IT certification, and wanted to shift the paradigm in the career and corporate training world.</p>
+               </div>
+          </div>
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Challenges</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>Lab Four's plan involved numerous large projects and initiatives, each with different target markets, user profiles, and marketing campaigns. A "one size fits all" approach would not work in regards to branding and design.</p>
+               </div>
+          </div>
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Solution</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>Design for Lab Four was taken on a per-campaign basis, making sure to cover all the subtle differences between projects, target audiences, and calls to action. Over 5+ years, hundreds of pieces were created that contributed to multi-million-dollar revenue, huge boosts in enrollment for the career training branches, expansion, and larger partnerships for larger projects. Partners, clients, and community members regularly commented on the design work, and Lab Four was extremely happy with the results it saw from the work.</p>
+               </div>
+          </div>
+     </div>
+
+<!---------- Gallery ---------->
+
+     <div class="examplesParent">
+          <div class="examplesChild" ng-repeat="item in labfour.pics">
+               <img src="/src/img/{{item.img}}">
+          </div>
+     </div>
+
+</div>

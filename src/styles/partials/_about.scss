@@ -1,0 +1,21 @@
+.hero {
+  width: 100%;
+  height: 40vh;
+  max-height: 100vw;
+  background: url(/src/img/hero-about.png) center center;
+  background-size: 100vw;
+  position: relative;
+}
+
+.about{
+
+     h1{
+          text-align: center;
+          font-family: "Brandon", sans-serif;
+          font-size: 2.5em;
+          font-weight: 500;
+          margin-top: 75px;
+          margin-bottom: 75px;
+     }
+
+}

@@ -1,0 +1,54 @@
+<!-- HERO IMG -->
+<div class="heroMurdock"></div>
+
+<!---------- Title & Skills ---------->
+
+<div class="portfolio">
+     <div class="portTitle">
+          <h1>Murdock</h2>
+     </div>
+
+     <div class="parentTags">
+          <div class="childTags" ng-repeat="item in murdock.data">
+               <h3>{{item.skill}}</h3>
+          </div>
+     </div>
+
+
+<!---------- Problem/Description ---------->
+     <div class="description">
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Problem</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>This project, codenamed "Murdock", started when a law firm approached with a rather large complaint: the existing case management softwares out there just weren't very good. They needed a solution that wasn't a headache to use on an everyday basis and that actually met their needs rather than giving them part of what they needed and a whole lot of other features that were irrelevant.</p>
+               </div>
+          </div>
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Challenges</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>One of the largest challenges with this project was the sheer number of documents, dates, and data entries that needed to be managed in a single case. Existing solutions tended to overcrowd the screen with data entry points or overcomplicate navigation in poorly organized attempts to reduce the busy-ness of the dashboards. Murdock needed to nail the user experience so that everything could be captured accurately and easily while remaining a pleasant user experience that one could use every day, all day. The last, unignorable challenge was that many attorneys were not intimately familiar with technology, so the solution needed to be incredibly simple to use.</p>
+               </div>
+          </div>
+          <div class="descrip-row">
+               <div class="col-title">
+                    <h2>Solution</h2>
+               </div>
+               <div class="col-descrip">
+                    <p>To solve this problem, I took a step back and put myself in a lawyer's shoes. The solution we created needed to feel professional and serious (something many existing solutions didn't accomplish), but at the same time it needed to remain accessible. The user experience needed to be so smooth that every attorney using it felt like a genius or else they wouldn't use it. For the dashboards, I implemented a Five Second Rule that said "If the user can't find the most important information they need within five seconds, we've failed." After a lot of sketches and iterations, I was able to nail down layouts that accomplished all we needed. The client was ecstatic about the results, and they were extremely happy with the dashboards in particular. This was a much faster, easier, simpler solution that met their needs and made them more efficient.</p>
+               </div>
+          </div>
+     </div>
+
+<!---------- Gallery ---------->
+
+     <div class="examplesParent">
+          <div class="examplesChild" ng-repeat="item in murdock.pics">
+               <img src="/src/img/{{item.img}}">
+          </div>
+     </div>
+
+</div>
